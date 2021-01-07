@@ -190,7 +190,7 @@ int main()
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
 	glfwWindowHint(GLFW_RESIZABLE, GL_TRUE);
 
-	GLFWwindow* window = glfwCreateWindow(WINDOW_WIDTH, WINDOW_HEIGHT, "4210181030_Raka Arya Pratama", NULL, NULL);
+	GLFWwindow* window = glfwCreateWindow(WINDOW_WIDTH, WINDOW_HEIGHT, "4210181010_Ilham Jalu Prakosa", NULL, NULL);
 
 	glfwGetFramebufferSize(window, &framebufferWidth, &framebufferHeight);
 	glfwSetFramebufferSizeCallback(window, framebuffer_resize_callback);
